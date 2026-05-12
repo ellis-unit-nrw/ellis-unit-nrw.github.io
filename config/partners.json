@@ -1,0 +1,84 @@
+{
+  "partner_universities": [
+    {
+      "name": "University of Bonn",
+      "short": "University of Bonn",
+      "logo": "images/logos/uni-bonn.webp",
+      "url": "https://www.uni-bonn.de"
+    },
+    {
+      "name": "RWTH Aachen University",
+      "short": "RWTH Aachen University",
+      "logo": "images/logos/rwth-aachen-university.webp",
+      "url": "https://www.rwth-aachen.de"
+    },
+    {
+      "name": "University of Cologne",
+      "short": "University of Cologne",
+      "logo": "images/logos/uni-cologne.webp",
+      "url": "https://www.uni-koeln.de"
+    },
+    {
+      "name": "TU Dortmund University",
+      "short": "TU Dortmund University",
+      "logo": "images/logos/tu-dortmund.webp",
+      "url": "https://www.tu-dortmund.de"
+    },
+    {
+      "name": "Bielefeld University",
+      "short": "Bielefeld University",
+      "logo": "images/logos/uni-bielefeld.webp",
+      "url": "https://www.uni-bielefeld.de"
+    },
+    {
+      "name": "Forschungszentrum Jülich",
+      "short": "FZ Jülich",
+      "logo": "images/logos/fz-juelich.webp",
+      "url": "https://www.fz-juelich.de"
+    },
+    {
+      "name": "Paderborn University",
+      "short": "Paderborn University",
+      "logo": "images/logos/uni-paderborn.webp",
+      "url": "https://www.uni-paderborn.de"
+    }
+  ], 
+  "associated_institutes": [
+    {
+      "name": "Ruhr University Bochum",
+      "short": "Ruhr University Bochum",
+      "logo": "images/logos/ruhr-university-bochum.webp",
+      "url": "https://www.ruhr-uni-bochum.de"
+    },
+    {
+      "name": "Heinrich Heine University Düsseldorf",
+      "short": "Heinrich Heine University Düsseldorf",
+      "logo": "images/logos/heinrich-heine-university-duesseldorf.webp",
+      "url": "https://www.hhu.de"
+    },
+    {
+      "name": "Radboud University Nijmegen",
+      "short": "Radboud University Nijmegen",
+      "logo": "images/logos/radboud-university-nijmegen.webp",
+      "url": "https://www.radboudumc.nl"
+    },
+    {
+      "name": "University Hospital Essen",
+      "short": "University Hospital Essen",
+      "logo": "images/logos/university-hospital-essen.webp",
+      "url": "https://www.uk-essen.de"
+    },
+    {
+      "name": "University of Siegen",
+      "short": "University of Siegen",
+      "logo": "images/logos/uni-siegen.webp",
+      "url": "https://www.uni-siegen.de"
+    },
+    {
+      "name": "University Hospital Aachen",
+      "short": "University Hospital Aachen",
+      "logo": "images/logos/university-hospital-rwth-aachen.webp",
+      "url": "https://www.ukaachen.de/en/"
+    }
+  ]
+}

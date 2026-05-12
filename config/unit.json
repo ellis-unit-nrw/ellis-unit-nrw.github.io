@@ -1,0 +1,48 @@
+{
+  "name": "ELLIS Unit NRW",
+  "short_name": "ELLIS NRW",
+  "tagline": "A unified & world-class ecosystem for machine learning research in the German state of North Rhine-Westphalia (NRW).",
+
+  "director": {
+    "name": "Prof. Dr. Jürgen Gall",
+    "institution": "University of Bonn",
+    "website": "https://pages.iai.uni-bonn.de/gall_juergen/"
+  },
+  "co_directors": [
+    { "name": "Prof. Dr. Aleksandar Bojchevski", "institution": "University of Cologne", "website": "https://abojchevski.github.io/" },
+    { "name": "Prof. Dr. Katharina Eggensperger", "institution": "TU Dortmund University", "website": "https://keggensperger.github.io/" },
+    { "name": "Prof. Dr. Barbara Hammer", "institution": "Bielefeld University", "website": "https://hammer-lab.techfak.uni-bielefeld.de/" },
+    { "name": "Dr. Jenia Jitsev", "institution": "FZ Jülich", "website": "https://scholar.google.com/citations?user=p1FuAMkAAAAJ" },
+    { "name": "Prof. Dr. Bastian Leibe", "institution": "RWTH Aachen University", "website": "https://www.vision.rwth-aachen.de/" },
+    { "name": "Prof. Dr. Axel-Cyrille Ngonga Ngomo", "institution": "Paderborn University", "website": "https://dice-research.org/" }
+  ],
+
+  "about": {
+    "lead": "",
+    "paragraphs": [
+      "ELLIS Unit NRW is a research unit of the European Laboratory for Learning and Intelligent Systems (ELLIS). Our vision is to establish an NRW-wide, world-class ecosystem for ML research and industry, building on extensive experience in large-scale collaboration and drawing from the diverse research landscape in NRW",
+      "We focus on three tightly connected research areas: (i) Advancing open-source foundation models with open access to data, models, and source code, (ii) enhancing the trustworthiness of foundation models for rare events like extremes and in domains such as healthcare with a focus on underrepresented groups like persons with special needs and (iii) adapting foundation models for embodied AI with a focus on applications in home-care and sustainable agriculture."
+    ]
+  },
+
+  "research_areas": [
+    "ADD TOPICS"
+  ],
+
+  "social": {
+    "website": "https://ellis-nrw.eu",
+    "linkedin": "https://www.linkedin.com/company/ellis-nrw"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "desc":  "Get in touch with us.",
+    "email_user":   "ellis-nrw",
+    "email_domain": "uni-bonn",
+    "email_tld":    "de"
+  },
+
+  "footer": {
+    "note": "ELLIS Unit NRW is part of the European Laboratory for Learning and Intelligent Systems (ELLIS). ELLIS is a pan-European network of research units dedicated to advancing the field of machine learning and artificial intelligence. For more information about ELLIS and its activities, please visit the <a href='https://ellis.eu'>ELLIS website</a>."
+  }
+}

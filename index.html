@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ELLIS Unit NRW — European Laboratory for Learning and Intelligent Systems">
+  <title>ELLIS Unit NRW</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="ELLIS Unit NRW">
+        <img src="images/ellis-logo_horizontal_black_2026-NRW.png" alt="ELLIS Unit NRW" class="logo-dark" height="34">
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home"       class="nav-link">Home</a></li>
+        <li><a href="#partners"   class="nav-link">Partners</a></li>
+        <li><a href="#people"     class="nav-link">People</a></li>
+        <li><a href="#activities" class="nav-link">Activities</a></li>
+        <li><a href="#contact"    class="nav-link">Contact</a></li>
+        <!-- <li><a href="#positions"  class="nav-link">Open Positions</a></li> -->
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO
+       Left  : identity + about
+       Right : news + partner uni logos
+       ══════════════════════════════════════ -->
+  <section id="home" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+
+    <div class="hero-logo-wrap">
+      <img src="images/ellis-logo_horizontal_white_2026-NRW.png" alt="ELLIS Unit NRW" class="hero-logo-img" id="hero-logo-img">
+    </div>
+
+    <div class="hero-grid">
+
+      <!-- ── LEFT ── -->
+      <div class="hero-left">
+        <h1 class="hero-title" id="hero-unit-name"></h1>
+        <p  class="hero-tagline" id="hero-tagline"></p>
+        <div class="hero-about-text" id="about-text"></div>
+        <!-- <div class="research-areas" id="research-areas"></div> -->
+        <div class="hero-social" id="hero-social"></div>
+      </div>
+
+      <!-- ── RIGHT ── -->
+      <div class="hero-right">
+        <div class="hero-panel">
+          <h3 class="panel-label">News &amp; Updates</h3>
+          <ul class="hero-news-list" id="hero-news-list"></ul>
+          <button class="hero-news-more" id="hero-news-more" style="display:none">Show more</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <span class="scroll-hint-text">Scroll down</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+  <!-- ══════════════════════════════════════
+       PARTNERS
+       ══════════════════════════════════════ -->
+  <section id="partners" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">Network</h2>
+
+      <h3 class="block-label">Founding Universities</h3>
+      <div class="partner-grid" id="partner-grid"></div>
+
+      <!-- Associated institutes tile grid — hidden if empty -->
+      <div id="assoc-block" style="display:none">
+        <h3 class="block-label" style="margin-top:56px">Associated Institutes</h3>
+        <div class="assoc-grid" id="assoc-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PEOPLE
+       ══════════════════════════════════════ -->
+  <section id="people" class="section section-white">
+    <div class="container">
+      <h2 class="section-title">People</h2>
+
+      <div class="people-block">
+        <h3 class="block-label">Directors</h3>
+        <div class="directors-row" id="directors-row"></div>
+      </div>
+
+      <div class="people-block" id="members-block">
+        <h3 class="block-label">Members</h3>
+        <div class="members-grid" id="members-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       ACTIVITIES
+       ══════════════════════════════════════ -->
+  <section id="activities" class="section section-light">
+    <div class="container">
+      <h2 class="section-title">Activities</h2>
+      <p class="section-sub">Seminars, workshops, and events</p>
+      <div class="activities-grid" id="activities-grid"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       OPEN POSITIONS
+       To hide: comment out from here …
+       ══════════════════════════════════════ -->
+  <section id="positions" class="section section-white">
+    <div class="container">
+      <h2 class="section-title">Open Positions</h2>
+      <p class="section-sub">Join the team</p>
+      <div class="positions-list" id="positions-list"></div>
+    </div>
+  </section>
+  <!-- … to here to hide open positions -->
+
+  <!-- ══════════════════════════════════════
+       FOOTER  (contains contact button)
+       ══════════════════════════════════════ -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <button class="btn btn-contact" id="contact-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+        Contact Us
+      </button>
+      <img src="images/ellis-logo_vertical_white_2026-NRW.png" alt="ELLIS Unit NRW" class="footer-logo" height="200">
+
+      <div class="footer-copy">
+        <p>&copy; <span id="current-year"></span> <span id="footer-name"></span>. Part of the <a href="https://ellis.eu" target="_blank" rel="noopener">ELLIS network</a>.</p>
+        <p class="footer-note" id="footer-note"></p>
+      </div>
+      
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
