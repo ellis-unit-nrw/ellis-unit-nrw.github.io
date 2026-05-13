@@ -2,7 +2,7 @@
   "directors": [
     {
       "name": "Prof. Dr. Jürgen Gall",
-      "role": "Managing Director",
+      "role": "Managing Co-Director",
       "institution": "University of Bonn",
       "category": "director",
       "image": "images/members/juergengall.webp",
@@ -49,137 +49,146 @@
       "institution": "Paderborn University",
       "image": "images/members/axelngonga.webp",
       "website": "https://dice-research.org/"
+    },
+    {
+      "name": "Prof. Dr. Asja Fischer",
+      "role": "Co-Director",
+      "institution": "Ruhr University Bochum",
+      "image": "images/members/asjafischer.webp",
+      "website": "https://informatik.rub.de/fischer/"
+    }
+  ],
+  "coordinators": [
+    {
+      "name": "Dr. Marius Bock",
+      "role": "Managing Coordinator",
+      "institution": "University of Bonn",
+      "image": "images/members/mariusbock.webp",
+      "website": "https://mariusbock.github.io/"
     }
   ],
   "members": [
     {
-      "name": "Sven Behnke",
+      "name": "Prof. Dr. Sven Behnke",
       "role": "Member",
       "institution": "University of Bonn",
       "image": "images/members/svenbehnke.webp",
       "website": ""
     },
     {
-      "name": "Maren Bennewitz",
+      "name": "Prof. Dr. Maren Bennewitz",
       "role": "Member",
       "institution": "University of Bonn",
       "image": "images/members/marenbennewitz.webp",
       "website": ""
     },
     {
-      "name": "Florian Bernard",
+      "name": "Prof. Dr. Florian Bernard",
       "role": "Member",
       "institution": "University of Bonn",
       "image": "images/members/florianbernard.webp",
       "website": ""
     },
     {
-      "name": "Hermann Blum",
+      "name": "Prof. Dr. Hermann Blum",
       "role": "Member",
       "institution": "University of Bonn",
       "image": "images/members/hermannblum.webp",
       "website": ""
     },
     {
-      "name": "Paul-Christian Bürkner",
+      "name": "Prof. Dr. Paul-Christian Bürkner",
       "role": "Member",
       "institution": "TU Dortmund University",
       "image": "images/members/paulbuerkner.webp",
       "website": ""
     },
     {
-      "name": "Elena Demidova",
+      "name": "Prof. Dr. Elena Demidova",
       "role": "Member",
       "institution": "University of Bonn",
       "image": "images/members/elenademidova.webp",
       "website": ""
     },
     {
-      "name": "Matthias Feurer",
+      "name": "Prof. Dr. Matthias Feurer",
       "role": "Member",
       "institution": "TU Dortmund University",
       "image": "images/members/matthiasfeurer.webp",
       "website": ""
     },
     {
-      "name": "Gernot A. Fink",
+      "name": "Prof. Dr. Gernot A. Fink",
       "role": "Member",
       "institution": "TU Dortmund University",
       "image": "images/members/gernotfink.webp",
       "website": ""
     },
     {
-      "name": "Asja Fischer",
-      "role": "Member",
-      "institution": "Ruhr University Bochum",
-      "image": "images/members/asjafischer.webp",
-      "website": ""
-    },
-    {
-      "name": "Lucie Flek",
+      "name": "Prof. Dr. Lucie Flek",
       "role": "Member",
       "institution": "University of Bonn",
       "image": "images/members/lucieflek.webp",
       "website": ""
     },
     {
-      "name": "Milica Gasic",
+      "name": "Prof. Dr. Milica Gašić",
       "role": "Member",
       "institution": "Heinrich Heine University Düsseldorf",
       "image": "images/members/milicagasic.webp",
       "website": ""
     },
     {
-      "name": "David Gross",
+      "name": "Prof. Dr. David Gross",
       "role": "Member",
       "institution": "University of Cologne",
       "image": "images/members/davidgross.webp",
       "website": ""
     },
     {
-      "name": "Stefan Harmeling",
+      "name": "Prof. Dr. Stefan Harmeling",
       "role": "Member",
       "institution": "TU Dortmund University",
       "image": "images/members/stefanharmeling.webp",
       "website": ""
     },
     {
-      "name": "Stefan Heindorf",
+      "name": "Dr. Stefan Heindorf",
       "role": "Member",
       "institution": "Paderborn University",
       "image": "images/members/stefanheindorf.webp",
       "website": ""
     },
     {
-      "name": "Holger Hoos",
+      "name": "Prof. Dr. Holger Hoos",
       "role": "Member",
       "institution": "RWTH Aachen University",
       "image": "images/members/holgerhoos.webp",
       "website": ""
     },
     {
-      "name": "Nils Jansen",
+      "name": "Prof. Dr. Nils Jansen",
       "role": "Member",
       "institution": ["Ruhr University Bochum", "Radboud University Nijmegen"],
       "image": "images/members/nilsjansen.webp",
       "website": ""
     },
     {
-      "name": 	"Michael Kamp",
+      "name": 	"Prof. Dr. Michael Kamp",
       "role": 	"Member",
      	"institution": ["TU Dortmund University", "University Hospital Essen"],
       	"image":"images/members/michaelkamp.webp",	
       	"website":""
     },
     {
-      	"name":"Joost-Pieter Katoen",	
+      	"name":"Prof. Dr. Joost-Pieter Katoen",	
       	"role":"Member",	
       	"institution":"RWTH Aachen University",	
       	"image":"images/members/joostpieterkatoen.webp",	
       	"website":""
     },
     {
-      	"name":"Jens Kleesiek",	
+      	"name":"Prof. Dr. Jens Kleesiek",	
       	"role":"Member",  
       	"institution":"University Hospital Essen",
       	"image":"images/members/jenskleesiek.webp",
@@ -187,119 +196,119 @@
     }
       ,
       {
-        	"name":"Stefan Kopp",	
+        	"name":"Prof. Dr. Stefan Kopp",	
         	"role":"Member",	
         	"institution":"Bielefeld University",	
         	"image":"images/members/stefankopp.webp",	
         	"website":""
       },
       {
-        	"name":"Zorah Lähner",	
+        	"name":"Prof. Dr. Zorah Lähner",	
         	"role":"Member",	
         	"institution":"University of Bonn",	
         	"image":"images/members/zorahlaehner.webp",	
         	"website":""
       },
       {
-        	"name":"Gerhard Lakemeyer",	
+        	"name":"Prof. Dr. Gerhard Lakemeyer",	
         	"role":"Member",	
         	"institution":"RWTH Aachen University",	
         	"image":"images/members/gerhardlakemeyer.webp",	
         	"website":""
       },
       {
-        	"name":"Michael Moeller",	
+        	"name":"Prof. Dr. Michael Moeller",	
         	"role":"Member",	
         	"institution":"University of Siegen",	
         	"image":"images/members/michaelmoeller.webp",	
         	"website":""
       },
       {
-        	"name":"Christopher Morris",	
+        	"name":"Prof. Dr. Christopher Morris",	
         	"role":"Member",	
         	"institution":"RWTH Aachen University",	
         	"image":"images/members/christophermorris.webp",	
         	"website":""
       },
       {
-        "name": "Saskia K. Nagel",
+        "name": "Prof. Dr. Saskia K. Nagel",
         "role": "Member",
         "institution": "RWTH Aachen University",
         "image": "images/members/saskianagel.webp",
         "website": ""
       },
       {
-        "name": "Emre Neftci",
+        "name": "Prof. Dr. Emre Neftci",
         "role": "Member",
         "institution": ["Forschungszentrum Zurich", "RWTH Aachen University"],
         "image": "images/members/emreneftci.webp",
         "website": ""
       },
       {
-        "name": "Benjamin Paassen",
+        "name": "Prof. Dr. Benjamin Paassen",
         "role": "Member",
         "institution": "Bielefeld University",
         "image": "images/members/benjaminpaassen.webp",
         "website": ""
       },
       {
-        "name": "Ribana Roscher",
+        "name": "Prof. Dr. Ribana Roscher",
         "role": "Member",
         "institution": "University of Bonn",
         "image": "images/members/ribanaroscher.webp",
         "website": ""
       },
       {
-        "name": "Michael Schaub",
+        "name": "Prof. Dr. Michael Schaub",
         "role": "Member",
         "institution": "University of Bonn",
         "image": "images/members/michaelschaub.webp",
         "website": ""
       },
       {
-        "name": "Martin Schultz",
+        "name": "Prof. Dr. Martin Schultz",
         "role": "Member",
         "institution": "University of Cologne",
         "image": "images/members/martinschultz.webp",
         "website": ""
       },
       {
-        "name": "Christian Sohler",
+        "name": "Prof. Dr. Christian Sohler",
         "role": "Member",
         "institution": "University of Cologne",
         "image": "images/members/christiansohler.webp",
         "website": ""
       },
       {
-        "name": "Cyrill Stachniss",
+        "name": "Prof. Dr. Cyrill Stachniss",
         "role": "Member",
         "institution": "University of Bonn",
         "image": "images/members/cyrillstachniss.webp",
         "website": ""
       },
       {
-        "name": "Sebastian Trimpe",
+        "name": "Prof. Dr. Sebastian Trimpe",
         "role": "Member",
         "institution": "RWTH Aachen University",
         "image": "images/members/sebastiantrimpe.webp",
         "website": ""
       },
       {
-        "name": 	"Daniel Truhn",	
+        "name": 	"Prof. Dr. Daniel Truhn",	
       	"role":"Member",	
       	"institution":["RWTH Aachen", "University Hospital Aachen"],	
       	"image":"images/members/danieltruhn.webp",	
       	"website":""
       },
       {
-        	"name":"Wil van der Aalst",	
+        	"name":"Prof. Dr. Wil van der Aalst",	
         	"role":"Member",	
         	"institution":"RWTH Aachen University",	
         	"image":"images/members/wilvanderaalst.webp",	
         	"website":""
       },
       {
-        	"name":"Andreas Winter",	
+        	"name":"Prof. Dr. Andreas Winter",	
         	"role":"Member",	
         	"institution":"University of Cologne",	
         	"image":"images/members/andreaswinter.webp",	

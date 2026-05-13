@@ -41,15 +41,16 @@
       "short": "Paderborn University",
       "logo": "images/logos/uni-paderborn.webp",
       "url": "https://www.uni-paderborn.de"
-    }
-  ], 
-  "associated_institutes": [
+    },
     {
       "name": "Ruhr University Bochum",
       "short": "Ruhr University Bochum",
       "logo": "images/logos/ruhr-university-bochum.webp",
       "url": "https://www.ruhr-uni-bochum.de"
-    },
+    }
+  ], 
+  "associated_institutes": [
+    
     {
       "name": "Heinrich Heine University Düsseldorf",
       "short": "Heinrich Heine University Düsseldorf",
@@ -79,6 +80,12 @@
       "short": "University Hospital Aachen",
       "logo": "images/logos/university-hospital-rwth-aachen.webp",
       "url": "https://www.ukaachen.de/en/"
+    },
+    {
+      "name": "Lamarr Institute for Machine Learning and Artificial Intelligence",
+      "short": "Lamarr Institute",
+      "logo": "images/logos/lamarr-institute.webp",
+      "url": "https://www.lamarr-institute.de"
     }
   ]
 }

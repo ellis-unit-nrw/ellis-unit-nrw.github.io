@@ -171,6 +171,7 @@ async function loadPartners() {
 async function loadPeople() {
   const data      = await loadJSON('config/members.json');
   const directors = data.directors || [];
+  const coordinators = data.coordinators || [];
   const members   = data.members   || [];
 
   function makeCard(p, avatarClass, avatarSize) {
@@ -200,6 +201,14 @@ async function loadPeople() {
   // Directors
   const dRow = $('directors-row');
   directors.forEach(p => dRow.appendChild(makeCard(p, 'director-avatar', 108)));
+
+  // Coordinators
+  const cRow = $('coordinators-row');
+  if (!coordinators.length) {
+    $('coordinators-block').style.display = 'none';
+  } else {
+    coordinators.forEach(p => cRow.appendChild(makeCard(p, 'member-avatar', 84)));
+  }
 
   // Members
   const mGrid = $('members-grid');
@@ -253,7 +262,7 @@ async function loadPositions() {
   } catch (_) { /* file optional */ }
 
   if (!positions.length) {
-    list.innerHTML = '<p class="positions-empty">No open positions at this time. Send a speculative enquiry via the Contact button.</p>';
+    list.innerHTML = '<p class="positions-empty">No open positions at this time.</p>';
     return;
   }
   positions.forEach(p => {

@@ -440,7 +440,22 @@ disappear when scrolled, to avoid overlap with navbar */
 
 /* Directors: centered, wrap centered */
 .directors-row {
-  display:flex; flex-wrap:wrap; justify-content:center; gap:36px 28px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(5 * 140px + 4 * 28px);
+  justify-content:center;
+  gap:36px 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Coordinators: same centering logic as directors, member card width (120px) + 16px gap */
+.coordinators-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 36px 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* A person card is just a flex column — no box, no border */
 .person-card {
