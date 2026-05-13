@@ -208,13 +208,13 @@ ul { list-style:none }
 
 .hero-social { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:24px }
 .social-icon {
-  width:32px; height:32px; border-radius:var(--r-sm);
+  width:40px; height:40px; border-radius:var(--r-sm);
   display:flex; align-items:center; justify-content:center;
   border:1px solid rgba(255,255,255,.13); background:rgba(255,255,255,.05);
   color:rgba(255,255,255,.6); transition:all .2s var(--ease);
 }
 .social-icon:hover { background:var(--indigo); border-color:var(--indigo); color:var(--white) }
-.social-icon svg { width:14px; height:14px; fill:currentColor }
+.social-icon svg { width:18px; height:18px; fill:currentColor }
 
 .hero-cta { display:flex; gap:10px; flex-wrap:wrap }
 
@@ -621,9 +621,14 @@ disappear when scrolled, to avoid overlap with navbar */
   .footer-inner { flex-direction:column; align-items:center; text-align:center; gap:20px }
   .activities-grid { grid-template-columns:1fr }
   .members-grid { grid-template-columns:repeat(auto-fill, minmax(100px,1fr)) }
-  .directors-row { gap:28px 18px }
+  .directors-row {
+    max-width: calc(3 * 140px + 2 * 28px); /* 476px — 3 cards + 2 gaps */
+  }
 }
 @media (max-width:480px) {
   .members-grid { grid-template-columns:repeat(3,1fr) }
   .director-avatar { width:90px; height:90px; font-size:24px }
+  .directors-row {
+    max-width: calc(2 * 140px + 1 * 28px); /* 308px — 2 cards + 1 gap */
+  }
 }

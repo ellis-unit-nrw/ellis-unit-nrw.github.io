@@ -57,10 +57,9 @@ if (ra) {
   const mkIcon = (type, href, title) =>
     `<a href="${href}" target="_blank" rel="noopener" class="social-icon" title="${title}" style="fill:none;stroke:currentColor;stroke-width:2">${ICONS[type] || ICONS.website}</a>`;
   if (s.email)    sl.innerHTML += mkIcon('email',    `mailto:${s.email}`, 'Email');
-  if (s.website)  sl.innerHTML += mkIcon('website',  s.website,           'Website');
+  if (s.linkedin) sl.innerHTML += mkIcon('linkedin', s.linkedin,          'LinkedIn');
   if (s.twitter)  sl.innerHTML += mkIcon('twitter',  s.twitter,           'Twitter');
   if (s.github)   sl.innerHTML += mkIcon('github',   s.github,            'GitHub');
-  if (s.linkedin) sl.innerHTML += mkIcon('linkedin', s.linkedin,          'LinkedIn');
 
   // Footer
   if ($('footer-name')) $('footer-name').textContent = u.name || '';
