@@ -98,6 +98,9 @@ ul { list-style:none }
   will-change: opacity;
 }
 
+.hero-logo-vertical   { display: none }
+.hero-logo-horizontal { display: block }
+
 .nav-menu { display:flex; align-items:center; gap:28px }
 .nav-link {
   font-size:13px; font-weight:600; letter-spacing:-.01em;
@@ -624,6 +627,21 @@ disappear when scrolled, to avoid overlap with navbar */
   .directors-row {
     max-width: calc(3 * 140px + 2 * 28px); /* 476px — 3 cards + 2 gaps */
   }
+  .hero-logo-img {
+    width: 75%;
+    height: auto;
+    max-width: none;
+    min-height: unset;
+  }
+  .partner-card {
+    padding: 12px 16px;
+    min-width: 120px;
+    max-width: 160px;
+    gap: 7px;
+  }
+  .partner-logo      { height: 36px; max-width: 110px }
+  .partner-name      { font-size: 10px }
+  .partner-grid      { gap: 10px }
 }
 @media (max-width:480px) {
   .members-grid { grid-template-columns:repeat(3,1fr) }
@@ -631,4 +649,15 @@ disappear when scrolled, to avoid overlap with navbar */
   .directors-row {
     max-width: calc(2 * 140px + 1 * 28px); /* 308px — 2 cards + 1 gap */
   }
+  .hero-logo-img {
+    width: 85%;
+    height: auto;
+    max-width: none;
+    min-height: unset;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-logo-horizontal { display: none }
+  .hero-logo-vertical   { display: block; width: 65%; height: auto; max-width: 200px }
 }
