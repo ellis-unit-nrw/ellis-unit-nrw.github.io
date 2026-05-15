@@ -3,7 +3,7 @@
     {
       "name": "Prof. Dr. Jürgen Gall",
       "role": "Managing Co-Director",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "category": "director",
       "image": "images/members/juergengall.webp",
       "website": "https://pages.iai.uni-bonn.de/gall_juergen/"
@@ -18,7 +18,7 @@
     {
       "name": "Prof. Dr. Katharina Eggensperger",
       "role": "Co-Director",
-      "institution": "TU Dortmund University",
+      "institution": ["TU Dortmund University", "Lamarr Institute"],
       "image": "images/members/katharinaeggensperger.webp",
       "website": "https://keggensperger.github.io/"
     },
@@ -32,7 +32,7 @@
     {
       "name": "Dr. Jenia Jitsev",
       "role": "Co-Director",
-      "institution": "Forschungszentrum Jülich",
+      "institution": ["Forschungszentrum Jülich", "LAION"],
       "image": "images/members/jeniajitsev.webp",
       "website": "https://scholar.google.com/citations?user=p1FuAMkAAAAJ"
     },
@@ -62,257 +62,291 @@
     {
       "name": "Dr. Marius Bock",
       "role": "Managing Coordinator",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/mariusbock.webp",
       "website": "https://mariusbock.github.io/"
     }
   ],
   "members": [
     {
+      "name": "Dr. Özge Alaçam",
+      "role": "Member",
+      "institution": "Bielefeld University",
+      "image": "images/members/oezgealacam.webp",
+      "website": "https://ozgealacam.com/"
+    },
+    {
       "name": "Prof. Dr. Sven Behnke",
       "role": "Member",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/svenbehnke.webp",
-      "website": ""
+      "website": "https://www.ais.uni-bonn.de/behnke/"
     },
     {
       "name": "Prof. Dr. Maren Bennewitz",
       "role": "Member",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/marenbennewitz.webp",
-      "website": ""
+      "website": "https://www.hrl.uni-bonn.de/people/bennewitz"
     },
     {
       "name": "Prof. Dr. Florian Bernard",
       "role": "Member",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/florianbernard.webp",
-      "website": ""
+      "website": "https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/"
     },
     {
       "name": "Prof. Dr. Hermann Blum",
       "role": "Member",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/hermannblum.webp",
-      "website": ""
+      "website": "https://hermannblum.net/"
     },
     {
       "name": "Prof. Dr. Paul-Christian Bürkner",
       "role": "Member",
       "institution": "TU Dortmund University",
       "image": "images/members/paulbuerkner.webp",
-      "website": ""
+      "website": "https://paulbuerkner.com/"
     },
     {
       "name": "Prof. Dr. Elena Demidova",
       "role": "Member",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/elenademidova.webp",
-      "website": ""
+      "website": "https://www.dsis.uni-bonn.de/"
     },
     {
       "name": "Prof. Dr. Matthias Feurer",
       "role": "Member",
-      "institution": "TU Dortmund University",
+      "institution": ["TU Dortmund University", "Lamarr Institute"],
       "image": "images/members/matthiasfeurer.webp",
-      "website": ""
+      "website": "https://matthiasfeurer.de/"
     },
     {
       "name": "Prof. Dr. Gernot A. Fink",
       "role": "Member",
-      "institution": "TU Dortmund University",
+      "institution": ["TU Dortmund University", "Lamarr Institute"],
       "image": "images/members/gernotfink.webp",
-      "website": ""
+      "website": "https://patrec.cs.tu-dortmund.de/de/personen/gernot-fink/"
     },
     {
       "name": "Prof. Dr. Lucie Flek",
       "role": "Member",
-      "institution": "University of Bonn",
+      "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/lucieflek.webp",
-      "website": ""
+      "website": "https://caisa-lab.github.io/"
     },
     {
       "name": "Prof. Dr. Milica Gašić",
       "role": "Member",
       "institution": "Heinrich Heine University Düsseldorf",
       "image": "images/members/milicagasic.webp",
-      "website": ""
+      "website": "https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning"
     },
     {
       "name": "Prof. Dr. David Gross",
       "role": "Member",
       "institution": "University of Cologne",
       "image": "images/members/davidgross.webp",
-      "website": ""
+      "website": "https://www.thp.uni-koeln.de/gross/david_gross.html"
     },
     {
       "name": "Prof. Dr. Stefan Harmeling",
       "role": "Member",
-      "institution": "TU Dortmund University",
+      "institution": ["TU Dortmund University", "Lamarr Institute"],
       "image": "images/members/stefanharmeling.webp",
-      "website": ""
+      "website": "https://ai.cs.tu-dortmund.de/staff/harmeling-lab/prof-dr-stefan-harmeling/"
     },
     {
       "name": "Dr. Stefan Heindorf",
       "role": "Member",
       "institution": "Paderborn University",
       "image": "images/members/stefanheindorf.webp",
-      "website": ""
+      "website": "https://en.cs.uni-paderborn.de/de/ds-jrg"
+    },
+    {
+      "name": "Prof. Dr. Moritz Helias",
+      "role": "Member",
+      "institution": ["Forschungszentrum Jülich", "RWTH Aachen University"],
+      "image": "images/members/moritzhelias.webp",
+      "website": "https://www.fz-juelich.de/profile/helias_m"
     },
     {
       "name": "Prof. Dr. Holger Hoos",
       "role": "Member",
       "institution": "RWTH Aachen University",
       "image": "images/members/holgerhoos.webp",
-      "website": ""
+      "website": "https://hoos.ca/"
     },
     {
       "name": "Prof. Dr. Nils Jansen",
       "role": "Member",
       "institution": ["Ruhr University Bochum", "Radboud University Nijmegen"],
       "image": "images/members/nilsjansen.webp",
-      "website": ""
+      "website": "https://nilsjansen.org/"
     },
     {
       "name": 	"Prof. Dr. Michael Kamp",
       "role": 	"Member",
-     	"institution": ["TU Dortmund University", "University Hospital Essen"],
+     	"institution": ["TU Dortmund University", "University Hospital Essen", "Lamarr Institute"],
       	"image":"images/members/michaelkamp.webp",	
-      	"website":""
+      	"website":"https://michaelkamp.org/"
     },
     {
       	"name":"Prof. Dr. Joost-Pieter Katoen",	
       	"role":"Member",	
       	"institution":"RWTH Aachen University",	
       	"image":"images/members/joostpieterkatoen.webp",	
-      	"website":""
+      	"website":"https://www.rwth-aachen.de/cms/root/wir/einrichtungen/rektorat/~bityxi/univ-prof-dr-ir-joost-pieter-katoen/?allou=1"
     },
     {
       	"name":"Prof. Dr. Jens Kleesiek",	
       	"role":"Member",  
       	"institution":"University Hospital Essen",
       	"image":"images/members/jenskleesiek.webp",
-      	"website":""
+      	"website":"https://mml.ikim.nrw/authors/jens-kleesiek/"
+    },
+    {
+        "name":"Prof. Dr. Stefan Kopp",	
+        "role":"Member",	
+        "institution":"Bielefeld University",	
+        "image":"images/members/stefankopp.webp",	
+        "website":"https://www.techfak.uni-bielefeld.de/~skopp/"
+    },
+    {
+        "name":"Prof. Dr. Zorah Lähner",	
+        "role":"Member",	
+        "institution": ["University of Bonn", "Lamarr Institute"],	
+        "image":"images/members/zorahlaehner.webp",	
+        "website":"https://geometryinml.cs.uni-bonn.de/team/zorah/"
+    },
+    {
+        "name":"Prof. Dr. Gerhard Lakemeyer",	
+        "role":"Member",	
+        "institution":"RWTH Aachen University",	
+        "image":"images/members/gerhardlakemeyer.webp",	
+        "website":"https://kbsg.rwth-aachen.de/~gerhard/"
+    },
+    {
+      "name": "Prof. Dr. Kristel Michielsen",
+      "role": "Member",
+      "institution": ["Forschungszentrum Jülich", "University of Cologne"],
+      "image": "images/members/kristelmichielsen.webp",
+      "website": "https://www.fz-juelich.de/profile/michielsen_k"
+    },
+    {
+      "name":"Prof. Dr. Michael Moeller",	
+      "role":"Member",	
+      "institution":"University of Siegen",	
+      "image":"images/members/michaelmoeller.webp",	
+      "website":"https://www.vsa.informatik.uni-siegen.de/en/moeller-michael"
+    },
+    {
+      "name":"Prof. Dr. Christopher Morris",	
+      "role":"Member",	
+      "institution":"RWTH Aachen University",	
+      "image":"images/members/christophermorris.webp",	
+      "website":"https://chrsmrrs.github.io/"
+    },
+    {
+      "name": "Prof. Dr. Saskia K. Nagel",
+      "role": "Member",
+      "institution": "RWTH Aachen University",
+      "image": "images/members/saskianagel.webp",
+      "website": "https://www.ethics.rwth-aachen.de/cms/ethics/der-lehrstuhl/team/~fcnwz/saskia-nagel/?allou=1"
+    },
+    {
+      "name": "Prof. Dr. Emre Neftci",
+      "role": "Member",
+      "institution": ["Forschungszentrum Jülich", "RWTH Aachen University"],
+      "image": "images/members/emreneftci.webp",
+      "website": "https://www.fz-juelich.de/profile/neftci_e"
+    },
+    {
+      "name": "Prof. Dr. Benjamin Paaßen",
+      "role": "Member",
+      "institution": "Bielefeld University",
+      "image": "images/members/benjaminpaassen.webp",
+      "website": "https://bpaassen.gitlab.io/"
+    },
+    {
+      "name": "Prof. Dr. Helge Rhodin",
+      "role": "Member",
+      "institution": "Bielefeld University",
+      "image": "images/members/helgerhodin.webp",
+      "website": "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=459844196&lang=EN"
+    },
+    {
+      "name": "Prof. Dr. Ribana Roscher",
+      "role": "Member",
+      "institution": ["University of Bonn", "Lamarr Institute"],
+      "image": "images/members/ribanaroscher.webp",
+      "website": "https://rs.ipb.uni-bonn.de/people/prof-dr-ing-ribana-roscher/index.html"
+    },
+    {
+      "name": "Prof. Dr. Michael Schaub",
+      "role": "Member",
+      "institution": "University of Bonn",
+      "image": "images/members/michaelschaub.webp",
+      "website": "https://michaelschaub.github.io/"
+    },
+    {
+      "name": "Prof. Dr. Martin Schultz",
+      "role": "Member",
+      "institution": ["Forschungszentrum Jülich", "University of Cologne"],
+      "image": "images/members/martinschultz.webp",
+      "website": "https://www.fz-juelich.de/profile/schultz_m"
+    },
+    {
+      "name": "Prof. Dr. Christian Sohler",
+      "role": "Member",
+      "institution": "University of Cologne",
+      "image": "images/members/christiansohler.webp",
+      "website": "https://cs.uni-koeln.de/ls-sohler/team/prof-dr-christian-sohler"
+    },
+    {
+      "name": "Prof. Dr. Cyrill Stachniss",
+      "role": "Member",
+      "institution": ["University of Bonn", "Lamarr Institute"],
+      "image": "images/members/cyrillstachniss.webp",
+      "website": "https://www.ipb.uni-bonn.de/people/cyrill-stachniss/index.html"
+    },
+    {
+      "name": "Prof. Dr. Sebastian Trimpe",
+      "role": "Member",
+      "institution": "RWTH Aachen University",
+      "image": "images/members/sebastiantrimpe.webp",
+      "website": "https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1"
+    },
+    {
+      "name": "Prof. Dr. Daniel Truhn",	
+      "role":"Member",	
+      "institution":["RWTH Aachen", "University Hospital Aachen"],	
+      "image":"images/members/danieltruhn.webp",	
+      "website":"https://www.lfb.rwth-aachen.de/de/institute/team/truhn/"
+    },
+    {
+      "name":"Prof. Dr. Wil van der Aalst",	
+      "role":"Member",	
+      "institution":"RWTH Aachen University",	
+      "image":"images/members/wilvanderaalst.webp",	
+      "website":"https://www.vdaalst.com/"
+    },
+    {
+      "name":"Prof. Dr. Andreas Winter",	
+      "role":"Member",	
+      "institution":"University of Cologne",	
+      "image":"images/members/andreaswinter.webp",	
+      "website":"https://cs.uni-koeln.de/lehrstuehle/aktive-lehrstuehle/quantum-information-and-computation"
+    },
+    {
+      "name": "Prof. Dr. Sina Zarrieß",
+      "role": "Member",
+      "institution": "Bielefeld University",
+      "image": "images/members/sinazarriess.webp",
+      "website": "https://sinazarriess.github.io/"
     }
-      ,
-      {
-        	"name":"Prof. Dr. Stefan Kopp",	
-        	"role":"Member",	
-        	"institution":"Bielefeld University",	
-        	"image":"images/members/stefankopp.webp",	
-        	"website":""
-      },
-      {
-        	"name":"Prof. Dr. Zorah Lähner",	
-        	"role":"Member",	
-        	"institution":"University of Bonn",	
-        	"image":"images/members/zorahlaehner.webp",	
-        	"website":""
-      },
-      {
-        	"name":"Prof. Dr. Gerhard Lakemeyer",	
-        	"role":"Member",	
-        	"institution":"RWTH Aachen University",	
-        	"image":"images/members/gerhardlakemeyer.webp",	
-        	"website":""
-      },
-      {
-        	"name":"Prof. Dr. Michael Moeller",	
-        	"role":"Member",	
-        	"institution":"University of Siegen",	
-        	"image":"images/members/michaelmoeller.webp",	
-        	"website":""
-      },
-      {
-        	"name":"Prof. Dr. Christopher Morris",	
-        	"role":"Member",	
-        	"institution":"RWTH Aachen University",	
-        	"image":"images/members/christophermorris.webp",	
-        	"website":""
-      },
-      {
-        "name": "Prof. Dr. Saskia K. Nagel",
-        "role": "Member",
-        "institution": "RWTH Aachen University",
-        "image": "images/members/saskianagel.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Emre Neftci",
-        "role": "Member",
-        "institution": ["Forschungszentrum Zurich", "RWTH Aachen University"],
-        "image": "images/members/emreneftci.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Benjamin Paassen",
-        "role": "Member",
-        "institution": "Bielefeld University",
-        "image": "images/members/benjaminpaassen.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Ribana Roscher",
-        "role": "Member",
-        "institution": "University of Bonn",
-        "image": "images/members/ribanaroscher.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Michael Schaub",
-        "role": "Member",
-        "institution": "University of Bonn",
-        "image": "images/members/michaelschaub.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Martin Schultz",
-        "role": "Member",
-        "institution": "University of Cologne",
-        "image": "images/members/martinschultz.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Christian Sohler",
-        "role": "Member",
-        "institution": "University of Cologne",
-        "image": "images/members/christiansohler.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Cyrill Stachniss",
-        "role": "Member",
-        "institution": "University of Bonn",
-        "image": "images/members/cyrillstachniss.webp",
-        "website": ""
-      },
-      {
-        "name": "Prof. Dr. Sebastian Trimpe",
-        "role": "Member",
-        "institution": "RWTH Aachen University",
-        "image": "images/members/sebastiantrimpe.webp",
-        "website": ""
-      },
-      {
-        "name": 	"Prof. Dr. Daniel Truhn",	
-      	"role":"Member",	
-      	"institution":["RWTH Aachen", "University Hospital Aachen"],	
-      	"image":"images/members/danieltruhn.webp",	
-      	"website":""
-      },
-      {
-        	"name":"Prof. Dr. Wil van der Aalst",	
-        	"role":"Member",	
-        	"institution":"RWTH Aachen University",	
-        	"image":"images/members/wilvanderaalst.webp",	
-        	"website":""
-      },
-      {
-        	"name":"Prof. Dr. Andreas Winter",	
-        	"role":"Member",	
-        	"institution":"University of Cologne",	
-        	"image":"images/members/andreaswinter.webp",	
-        	"website":""
-      }
-    ]
+  ]
 }

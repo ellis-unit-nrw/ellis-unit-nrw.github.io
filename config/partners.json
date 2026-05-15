@@ -86,6 +86,12 @@
       "short": "Lamarr Institute",
       "logo": "images/logos/lamarr-institute.webp",
       "url": "https://www.lamarr-institute.de"
+    },
+    {
+      "name":"LAION",
+      "short":"LAION",
+      "logo": "images/logos/laion.webp",
+      "url": "https://laion.ai"
     }
   ]
 }

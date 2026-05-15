@@ -181,7 +181,7 @@ async function loadPeople() {
       <div class="${avatarClass}">${av}</div>
       <span class="person-name">${p.name}</span>
       ${p.role        ? `<span class="person-role">${p.role}</span>` : ''}
-      ${p.institution ? `<span class="person-inst">${p.institution}</span>` : ''}
+      ${p.institution ? `<span class="person-inst">${(() => { const parts = (Array.isArray(p.institution) ? p.institution : p.institution.split(',')).map(s => s.trim()); return parts.length <= 1 ? parts[0] : parts.slice(0, -1).join(', ') + ' & ' + parts[parts.length - 1]; })()}</span>` : ''}
     `;
     if (p.website) {
       const a = document.createElement('a');
