@@ -97,7 +97,7 @@
       "website": "https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/"
     },
     {
-      "name": "Prof. Dr. Hermann Blum",
+      "name": "Jun.-Prof. Dr. Hermann Blum",
       "role": "Member",
       "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/hermannblum.webp",
@@ -109,6 +109,20 @@
       "institution": "TU Dortmund University",
       "image": "images/members/paulbuerkner.webp",
       "website": "https://paulbuerkner.com/"
+    },
+    {
+      "name": "Prof. Dr. Marcel Campen",
+      "role": "Member",
+      "institution": "Paderborn University",
+      "image": "images/members/marcelcampen.webp",
+      "website": "https://homepages.uni-paderborn.de/campen/"
+    },
+    {
+      "name": "Prof. Dr. Semih Cayci",
+      "role": "Member",
+      "institution": ["University of Bonn", "Lamarr Institute"],
+      "image": "images/members/semihcayci.webp",
+      "website": "https://www.mathc.rwth-aachen.de/en/~cayci"
     },
     {
       "name": "Prof. Dr. Elena Demidova",
@@ -181,6 +195,13 @@
       "website": "https://hoos.ca/"
     },
     {
+      "name": "Prof. Dr. Katja Ickstadt",
+      "role": "Member",
+      "institution": "TU Dortmund University",
+      "image": "images/members/katjaickstadt.webp",
+      "website": "https://biometrie.statistik.tu-dortmund.de/lehrstuhl/team/prof-dr-katja-ickstadt/"
+    },
+    {
       "name": "Prof. Dr. Nils Jansen",
       "role": "Member",
       "institution": ["Ruhr University Bochum", "Radboud University Nijmegen"],
@@ -202,7 +223,7 @@
       	"website":"https://www.rwth-aachen.de/cms/root/wir/einrichtungen/rektorat/~bityxi/univ-prof-dr-ir-joost-pieter-katoen/?allou=1"
     },
     {
-      	"name":"Prof. Dr. Jens Kleesiek",	
+      	"name":"Prof. Dr. Dr. Jens Kleesiek",	
       	"role":"Member",  
       	"institution":"University Hospital Essen",
       	"image":"images/members/jenskleesiek.webp",
@@ -228,6 +249,20 @@
         "institution":"RWTH Aachen University",	
         "image":"images/members/gerhardlakemeyer.webp",	
         "website":"https://kbsg.rwth-aachen.de/~gerhard/"
+    },
+    {
+        "name":"Prof. Dr. Markus Lange-Hegermann",	
+        "role":"Member",	
+        "institution":"OWL University of Applied Sciences and Arts",	
+        "image":"images/members/markuslangehegermann.webp",	
+        "website":"https://www.th-owl.de/en/iat/faculty/team/markus-lange-hegermann/"
+    },
+    {
+        "name":"Prof. Dr. Alexander Marx",	
+        "role":"Member",	
+        "institution":"TU Dortmund University",	
+        "image":"images/members/alexandermarx.webp",	
+        "website":"https://www.a-marx.com/"
     },
     {
       "name": "Prof. Dr. Kristel Michielsen",
@@ -265,7 +300,7 @@
       "website": "https://www.fz-juelich.de/profile/neftci_e"
     },
     {
-      "name": "Prof. Dr. Benjamin Paaßen",
+      "name": "Jun.-Prof. Dr. Benjamin Paaßen",
       "role": "Member",
       "institution": "Bielefeld University",
       "image": "images/members/benjaminpaassen.webp",
@@ -321,6 +356,13 @@
       "website": "https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1"
     },
     {
+      "name": "Prof. Dr. Heike Trautmann",	
+      "role":"Member",	
+      "institution":"Paderborn University",	
+      "image":"images/members/heiketrautmann.webp",	
+      "website":"https://www.uni-paderborn.de/en/person/100740"
+    },
+    {
       "name": "Prof. Dr. Daniel Truhn",	
       "role":"Member",	
       "institution":["RWTH Aachen", "University Hospital Aachen"],	
@@ -333,6 +375,13 @@
       "institution":"RWTH Aachen University",	
       "image":"images/members/wilvanderaalst.webp",	
       "website":"https://www.vdaalst.com/"
+    },
+    {
+      "name":"Jun.-Prof. Dr. Nithin Varma",	
+      "role":"Member",	
+      "institution":"University of Cologne",	
+      "image":"images/members/nithinvarma.webp",	
+      "website":"https://sites.google.com/view/nithin-varma/bio"
     },
     {
       "name":"Prof. Dr. Andreas Winter",	

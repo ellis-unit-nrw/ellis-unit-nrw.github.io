@@ -92,6 +92,12 @@
       "short":"LAION",
       "logo": "images/logos/laion.webp",
       "url": "https://laion.ai"
+    },
+    {
+      "name":"OWL University of Applied Sciences and Arts",
+      "short":"TH OWL",
+      "logo": "images/logos/th-owl.webp",
+      "url": "https://www.th-owl.de/en/"
     }
   ]
 }
