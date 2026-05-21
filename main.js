@@ -78,6 +78,41 @@ if (ra) {
 }
 
 /* ══════════════════════════════════
+   ANNOUNCEMENT BANNER
+   ══════════════════════════════════ */
+async function loadAnnouncement() {
+  const u = await loadJSON('config/unit.json');
+  const ann = u.announcement;
+  if (!ann || !ann.text) return;
+  if (sessionStorage.getItem('announce-dismissed') === ann.text) return;
+
+  const bar   = $('announce-bar');
+  const inner = $('announce-inner');
+  const close = $('announce-close');
+
+  let html = ann.text;
+  if (ann.link && ann.link_text)
+    html += ` <a href="${ann.link}" target="_blank" rel="noopener">${ann.link_text}</a>`;
+  inner.innerHTML = html;
+
+  bar.style.display = 'flex';
+  document.body.classList.add('has-banner');
+
+  function syncHeight() {
+    document.documentElement.style.setProperty('--banner-h', bar.offsetHeight + 'px');
+  }
+  syncHeight();
+  window.addEventListener('resize', syncHeight, { passive: true });
+
+  close.addEventListener('click', () => {
+    bar.style.display = 'none';
+    document.body.classList.remove('has-banner');
+    document.documentElement.style.setProperty('--banner-h', '0px');
+    sessionStorage.setItem('announce-dismissed', ann.text);
+  });
+}
+
+/* ══════════════════════════════════
    NEWS  (hero right panel)
    ══════════════════════════════════ */
 async function loadNews() {
@@ -91,6 +126,8 @@ async function loadNews() {
   news.forEach((item, i) => {
     const li = document.createElement('li');
     li.className = 'hero-news-item' + (i >= INIT ? ' hidden' : '');
+
+    if (item.pinned) li.classList.add('pinned');   // ← new line, added here
 
     let body = '';
     if (item.link) {
@@ -367,6 +404,7 @@ async function init() {
 
   const safe = (fn, label) => fn().catch(e => console.warn(label, e.message));
 
+  await safe(loadAnnouncement, 'announcement');
   await safe(loadUnit,       'unit.json');
   await safe(loadNews,       'news.json');
   await safe(loadPartners,   'partners.json');

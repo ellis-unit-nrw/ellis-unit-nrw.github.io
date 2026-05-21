@@ -89,7 +89,7 @@ ul { list-style:none }
 }
 
 .hero-logo-img {
-  height: clamp(100px, 16vw, 180px);
+  height: clamp(80px, 16vw, 140px);
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -331,8 +331,10 @@ ul { list-style:none }
 
 /* Scroll hint */
 .scroll-hint {
-  position:absolute; bottom:24px; left:50%; transform:translateX(-50%);
-  display:flex; flex-direction:column; align-items:center;
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center;
+  z-index: 10; pointer-events: auto;
+  transition: opacity .3s var(--ease);
 }
 .scroll-arrow {
   width:20px; height:20px;
@@ -352,7 +354,7 @@ disappear when scrolled, to avoid overlap with navbar */
 }
 .scroll-hint-text:hover { color:rgba(255,255,255,.6) }
 .scroll-hint.hidden .scroll-hint-text,
-.scroll-hint.hidden .scroll-arrow { opacity:0; pointer-events:none }
+.scroll-hint.hidden { opacity: 0; pointer-events: none; }
 
 
 @keyframes bounce {
@@ -602,6 +604,50 @@ disappear when scrolled, to avoid overlap with navbar */
 }
 .fade-up.visible { opacity:1; transform:none }
 
+/* ══════════════════════
+   ANNOUNCEMENT BANNER
+   ══════════════════════ */
+:root { --banner-h: 0px; }
+
+.announce-bar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 102;
+  min-height: 48px; padding: 10px 52px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--indigo); color: var(--white);
+  font-size: 15px; font-weight: 600; gap: 10px;
+  text-align: center; line-height: 1.5;
+}
+.announce-bar a { color: rgba(255,255,255,.85); text-decoration: underline }
+.announce-bar a:hover { color: var(--white) }
+.announce-close {
+  position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: rgba(255,255,255,.7);
+  font-size: 18px; cursor: pointer; line-height: 1; padding: 4px 8px;
+  transition: color .15s;
+}
+.announce-close:hover { color: var(--white) }
+
+body.has-banner .navbar { top: var(--banner-h); }
+body.has-banner .hero   { padding-top: calc(80px + var(--banner-h)); }
+
+
+/* ══════════════════════
+   PINNED NEWS ITEM
+   ══════════════════════ */
+.hero-news-item.pinned {
+  background:rgba(99,102,241,.10);
+  border:1px solid rgba(99,102,241,.25);
+  border-radius:6px;
+  padding:8px 10px 8px 10px;
+  margin-bottom:6px;
+  border-bottom:1px solid rgba(99,102,241,.25) !important;
+}
+.hero-news-item.pinned .news-date {
+  color:var(--white); background:var(--indigo);
+  padding:2px 7px; border-radius:var(--r-full);
+  font-size:9px;
+}
+
 /* ══════════════════════════════════
    RESPONSIVE
    ══════════════════════════════════ */
@@ -617,6 +663,7 @@ disappear when scrolled, to avoid overlap with navbar */
     flex-direction:column; gap:0; padding:8px 0;
     display:none; box-shadow:var(--shadow-md);
   }
+  .announce-bar { font-size: 14px; padding: 10px 40px 10px 16px; justify-content: flex-start; text-align: left; }
   .nav-menu.open { display:flex }
   .nav-link { padding:11px 20px; display:block; color:var(--gray-700) !important }
   .nav-link:hover,
@@ -625,6 +672,9 @@ disappear when scrolled, to avoid overlap with navbar */
   .hero { padding:76px 16px 52px }
   .section { padding:64px 16px }
   .footer { padding:28px 16px }
+  .scroll-hint { display: none; }
+  body.has-banner .hero { padding-top: calc(76px + var(--banner-h)); }
+
   .footer-inner { flex-direction:column; align-items:center; text-align:center; gap:20px }
   .activities-grid { grid-template-columns:1fr }
   .members-grid { grid-template-columns:repeat(auto-fill, minmax(100px,1fr)) }
@@ -648,6 +698,8 @@ disappear when scrolled, to avoid overlap with navbar */
   .partner-grid      { gap: 10px }
   /* 3 per row on tablet: 3×120px + 2×10px = 380px */
   .assoc-grid { max-width: 380px }
+  .assoc-card { width: calc(50% - 7px); min-width: unset; max-width: unset; }
+  .assoc-logo { width: 110px; height: 48px; }
 }
 @media (max-width:480px) {
   .members-grid { grid-template-columns:repeat(3,1fr) }

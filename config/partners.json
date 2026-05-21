@@ -98,6 +98,12 @@
       "short":"TH OWL",
       "logo": "images/logos/th-owl.webp",
       "url": "https://www.th-owl.de/en/"
+    },
+    {
+      "name": "RWTH Center for Artificial Intelligence",
+      "short": "RWTH AI Center",
+      "logo": "images/logos/rwth-ai-center.webp",
+      "url": "https://www.ai.rwth-aachen.de/go/id/fhykx/?lidx=1"
     }
   ]
 }

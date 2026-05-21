@@ -1,8 +1,12 @@
 {
   "news": [
     {
-      "date": "2025-05",
-      "text": "Welcome to the newly established ELLIS Unit NRW! We are proud to join the ELLIS network."
+      "date": "May 2026",
+      "pinned": true,
+      "text_before": "The ELLIS Unit NRW officially has launched.  We are proud to join the ELLIS network.",
+      "link": "https://www.uni-bonn.de/en/news/094-2026",
+      "link_text": " Read the press release",
+      "text_after": "."
     }
   ]
 }

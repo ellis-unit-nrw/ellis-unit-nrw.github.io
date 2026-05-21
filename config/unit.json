@@ -11,6 +11,12 @@
     ]
   },
 
+  "announcement": {
+    "text": "🎉 ELLIS Unit NRW officially launched! ",
+    "link": "https://www.uni-bonn.de/en/news/094-2026",
+    "link_text": "Read the press release →"
+  },
+
   "research_areas": [
     "ADD TOPICS"
   ],
