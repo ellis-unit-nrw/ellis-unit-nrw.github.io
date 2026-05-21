@@ -260,7 +260,7 @@
     {
         "name":"Prof. Dr. Alexander Marx",	
         "role":"Member",	
-        "institution":"TU Dortmund University",	
+        "institution":["TU Dortmund University", "Research Center Trustworthy Data Science and Security"],	
         "image":"images/members/alexandermarx.webp",	
         "website":"https://www.a-marx.com/"
     },
