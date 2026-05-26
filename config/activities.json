@@ -1,4 +1,11 @@
 {
   "activities": [
+    {
+      "type": "Summer School",
+      "title": " AutoML Summer School 2026 @ TU Dortmund University",
+      "date": "July 27-31, 2026",
+      "description": "The AutoML School is a yearly research training event tailored for graduate and postgraduate students, research engineers, and industry practitioners who want to learn about AutoML. However, there are no formal prerequisites, and everyone is welcome.",
+      "link": "automlschool.org "
+    }
   ]
 }
