@@ -76,6 +76,13 @@
       "website": "https://ozgealacam.com/"
     },
     {
+      "name": "Dr. Jens Behley",
+      "role": "Member",
+      "institution": "University of Bonn",
+      "image": "images/members/jensbehley.webp",
+      "website": "https://jbehley.github.io/"
+    },
+    {
       "name": "Prof. Dr. Sven Behnke",
       "role": "Member",
       "institution": ["University of Bonn", "Lamarr Institute"],
@@ -123,6 +130,13 @@
       "institution": ["University of Bonn", "Lamarr Institute"],
       "image": "images/members/semihcayci.webp",
       "website": "https://www.mathc.rwth-aachen.de/en/~cayci"
+    },
+    {
+      "name": "Dr. Mehdi Cherti",
+      "role": "Member",
+      "institution": ["Forschungszentrum Jülich", "LAION"],
+      "image": "images/members/mehdicherti.webp",
+      "website": "https://mehdidc.github.io/"
     },
     {
       "name": "Prof. Dr. Elena Demidova",
