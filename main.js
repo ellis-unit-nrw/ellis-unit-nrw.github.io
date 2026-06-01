@@ -278,7 +278,7 @@ async function loadActivities() {
       <div class="activity-title">${a.title}</div>
       ${a.speaker     ? `<div class="activity-speaker">Speaker: ${a.speaker}</div>` : ''}
       ${a.description ? `<div class="activity-desc">${a.description}</div>` : ''}
-      ${a.link        ? `<a href="${a.link}" target="_blank" rel="noopener" class="activity-link">Details →</a>` : ''}
+      ${a.link ? `<a href="${a.link.startsWith('http') ? a.link : 'https://' + a.link}" target="_blank" rel="noopener" class="activity-link">Details →</a>` : ''}
     `;
     grid.appendChild(card);
   });

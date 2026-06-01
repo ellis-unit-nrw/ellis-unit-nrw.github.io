@@ -7,6 +7,14 @@
       "link": "https://www.uni-bonn.de/en/news/094-2026",
       "link_text": " Read the press release",
       "text_after": "."
+    },
+    {
+      "date": "May 2026",
+      "pinned": false,
+      "text_before": "Join the AutoML Summer School 2026 @ TU Dortmund University, July 27-31, 2026.",
+      "link": "https://automlschool.org",
+      "link_text": "  Learn more",
+      "text_after": "."
     }
   ]
 }
