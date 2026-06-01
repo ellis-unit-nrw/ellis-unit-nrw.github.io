@@ -29,9 +29,9 @@
   "contact": {
     "title": "Contact",
     "desc":  "Get in touch with us.",
-    "email_user":   "ellis-nrw",
-    "email_domain": "uni-bonn",
-    "email_tld":    "de"
+    "email_user":   "marius.bock",
+    "email_domain": "ellis",
+    "email_tld":    "eu"
   },
 
   "footer": {
