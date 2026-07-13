@@ -6,6 +6,13 @@
       "date": "July 27-31, 2026",
       "description": "The AutoML School is a yearly research training event tailored for graduate and postgraduate students, research engineers, and industry practitioners who want to learn about AutoML. However, there are no formal prerequisites, and everyone is welcome.",
       "link": "automlschool.org"
+    },
+    {
+      "type": "Reading Group",
+      "title": "Mathematics & Efficiency of Deep Learning",
+      "date": "Approx. every other Monday @ 5pm CET",
+      "description": "A public ELLIS reading group exploring the interplay between the mathematical foundations of deep learning and the practical challenge of making ML efficient — from optimization theory to hardware-aware training.",
+      "link": "https://sites.google.com/view/efficientml"
     }
   ]
 }
