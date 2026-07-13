@@ -69,6 +69,13 @@
   ],
   "members": [
     {
+      "name": "Dr. Linara Adilova",
+      "role": "Member",
+      "institution": ["TU Dortmund University"],
+      "image": "images/members/linaraadilova.webp",
+      "website": "https://www.linkedin.com/in/linara-adilova/"
+    },
+    {
       "name": "Dr. Özge Alaçam",
       "role": "Member",
       "institution": "Bielefeld University",
@@ -127,7 +134,7 @@
     {
       "name": "Prof. Dr. Semih Cayci",
       "role": "Member",
-      "institution": ["University of Bonn", "Lamarr Institute"],
+      "institution": ["RWTH Aachen University", "Lamarr Institute"],
       "image": "images/members/semihcayci.webp",
       "website": "https://www.mathc.rwth-aachen.de/en/~cayci"
     },
