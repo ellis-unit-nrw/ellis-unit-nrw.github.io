@@ -146,6 +146,13 @@
       "website": "https://mehdidc.github.io/"
     },
     {
+      "name": "Prof. Dr. Philipp Cimiano",
+      "role": "Member",
+      "institution": ["Bielefeld University"],
+      "image": "images/members/philippcimiano.webp",
+      "website": "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/semantic-computing/"
+    },
+    {
       "name": "Prof. Dr. Elena Demidova",
       "role": "Member",
       "institution": ["University of Bonn", "Lamarr Institute"],
@@ -153,7 +160,7 @@
       "website": "https://www.dsis.uni-bonn.de/"
     },
     {
-      "name": "Prof. Dr. Matthias Feurer",
+      "name": "Jun.-Prof. Dr. Matthias Feurer",
       "role": "Member",
       "institution": ["TU Dortmund University", "Lamarr Institute"],
       "image": "images/members/matthiasfeurer.webp",
@@ -370,18 +377,18 @@
       "website": "https://www.ipb.uni-bonn.de/people/cyrill-stachniss/index.html"
     },
     {
-      "name": "Prof. Dr. Sebastian Trimpe",
-      "role": "Member",
-      "institution": "RWTH Aachen University",
-      "image": "images/members/sebastiantrimpe.webp",
-      "website": "https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1"
-    },
-    {
       "name": "Prof. Dr. Heike Trautmann",	
       "role":"Member",	
       "institution":"Paderborn University",	
       "image":"images/members/heiketrautmann.webp",	
       "website":"https://www.uni-paderborn.de/en/person/100740"
+    },
+    {
+      "name": "Prof. Dr. Sebastian Trimpe",
+      "role": "Member",
+      "institution": "RWTH Aachen University",
+      "image": "images/members/sebastiantrimpe.webp",
+      "website": "https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1"
     },
     {
       "name": "Prof. Dr. Daniel Truhn",	
