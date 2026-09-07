@@ -1,8 +1,24 @@
 {
   "news": [
     {
-      "date": "May 2026",
+      "date": "September 2026",
       "pinned": true,
+      "text_before": "ELLIS Unit NRW at ECCV 2026: ten papers feature contributions from our unit. Explore the full author lists and poster session schedule.",
+      "link": "news/ellis-at-eccv-2026/",
+      "link_text": " Read more",
+      "text_after": "."
+    },
+    {
+      "date": "August 2026",
+      "pinned": false,
+      "text_before": "Registration to the CESOC/ ELLIS Unit NRW workshop \"How Resolution Matters: The Future of AI Climate Modelling\" is now open. The workshop will take place on November 6, 2026, in Cologne, Germany.",
+      "link": "https://indico3-jsc.fz-juelich.de/event/335/",
+      "link_text": "  Learn more",
+      "text_after": "."
+    },
+    {
+      "date": "May 2026",
+      "pinned": false,
       "text_before": "The ELLIS Unit NRW officially has launched.  We are proud to join the ELLIS network.",
       "link": "https://www.uni-bonn.de/en/news/094-2026",
       "link_text": " Read the press release",

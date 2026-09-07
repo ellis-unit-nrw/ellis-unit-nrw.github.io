@@ -1,0 +1,34 @@
+/* Shared layout for news articles, research roundups, and conference reports. */
+.article-nav { border-bottom: 1px solid var(--gray-200); padding: 18px 24px; }
+.article-nav-inner { max-width: 1160px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.article-nav img { width: 220px; height: auto; }
+.article-nav a:last-child { font-size: 14px; font-weight: 600; }
+.news-article { max-width: 850px; margin: auto; padding: 64px 24px; }
+.article-header { margin-bottom: 40px; }
+.article-date { color: var(--gray-500); font-size: 14px; }
+.news-article h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.2; margin: 12px 0 24px; }
+.news-article p { margin: 12px 0; }
+.article-lead { font-size: 20px; color: var(--gray-700); }
+.news-article section { margin-top: 40px; }
+.news-article h2 { font-size: 24px; line-height: 1.4; margin-bottom: 8px; }
+.session-details { color: var(--gray-500); font-size: 16px; }
+.paper-list > li { padding: 24px 0; border-bottom: 1px solid var(--gray-200); }
+.paper-list h3 { font-size: 19px; line-height: 1.5; }
+.paper-authors { font-size: 16px; color: var(--gray-700); }
+.paper-number { display: inline-block; font-size: 14px; font-weight: 600; color: var(--indigo-dark); background: var(--indigo-pale); border-radius: var(--r-sm); padding: 3px 10px; }
+.news-article a { overflow-wrap: anywhere; }
+.news-article figure { margin: 28px 0; }
+.news-article figure img { border-radius: var(--r-md); }
+.news-article figcaption { margin-top: 8px; font-size: 14px; color: var(--gray-500); }
+.article-footer { border-top: 1px solid var(--gray-200); padding: 24px; text-align: center; font-size: 14px; color: var(--gray-500); }
+@media (max-width: 600px) {
+  .news-article { padding: 36px 20px; }
+  .article-lead { font-size: 18px; }
+  .news-article h2 { font-size: 21px; }
+}
+
+.article-conference-logo { display: block; width: fit-content; max-width: 100%; margin-bottom: 24px; }
+.article-conference-logo img { width: 280px; max-width: 100%; height: auto; }
+
+.article-conference-header { width: 100%; }
+.article-conference-header img { width: 100%; height: auto; }

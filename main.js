@@ -131,7 +131,9 @@ async function loadNews() {
 
     let body = '';
     if (item.link) {
-      body = `${item.text_before || ''}<a href="${item.link}" target="_blank" rel="noopener">${item.link_text || 'Read more'}</a>${item.text_after || ''}`;
+      const external = new URL(item.link, window.location.href).origin !== window.location.origin;
+      const linkAttrs = external ? ' target="_blank" rel="noopener"' : '';
+      body = `${item.text_before || ''}<a href="${item.link}"${linkAttrs}>${item.link_text || 'Read more'}</a>${item.text_after || ''}`;
     } else {
       body = item.text || '';
     }
