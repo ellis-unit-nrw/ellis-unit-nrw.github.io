@@ -3,6 +3,14 @@
     {
       "date": "September 2026",
       "pinned": true,
+      "text_before": "Join the ELLIS Unit NRW Kick-Off on 16 October 2026 in Siegburg. Find registration details and programme updates.",
+      "link": "news/ellis-unit-nrw-kick-off-2026/",
+      "link_text": " Read more",
+      "text_after": "."
+    },
+    {
+      "date": "September 2026",
+      "pinned": false,
       "text_before": "ELLIS Unit NRW at ECCV 2026: ten papers feature contributions from our unit. Explore the full author lists and poster session schedule.",
       "link": "news/ellis-at-eccv-2026/",
       "link_text": " Read more",

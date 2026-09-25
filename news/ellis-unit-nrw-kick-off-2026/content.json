@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "type": "speakers",
+      "title": "Speakers",
+      "description": "",
+      "items": [
+        {
+          "name": "Samuel Kaski",
+          "affiliation": "ELLIS Institute Finland · Aalto University · University of Manchester",
+          "website": "https://kaski-lab.com/",
+          "image": "samuel-kaski.png"
+        },
+        {
+          "name": "Jürgen Gall",
+          "affiliation": "University of Bonn · Lamarr Institute",
+          "image": "../../images/members/juergengall.webp",
+          "website": "https://pages.iai.uni-bonn.de/gall_juergen/"
+        },
+        {
+          "name": "Aleksandar Bojchevski",
+          "affiliation": "University of Cologne",
+          "image": "../../images/members/aleksandarbojchevski.webp",
+          "website": "https://abojchevski.github.io/"
+        },
+        {
+          "name": "Katharina Eggensperger",
+          "affiliation": "TU Dortmund University · Lamarr Institute",
+          "image": "../../images/members/katharinaeggensperger.webp",
+          "website": "https://keggensperger.github.io/"
+        },
+        {
+          "name": "Barbara Hammer",
+          "affiliation": "Bielefeld University",
+          "image": "../../images/members/barbarahammer.webp",
+          "website": "https://hammer-lab.techfak.uni-bielefeld.de/"
+        },
+        {
+          "name": "Jenia Jitsev",
+          "affiliation": "Forschungszentrum Jülich · LAION",
+          "image": "../../images/members/jeniajitsev.webp",
+          "website": "https://scholar.google.com/citations?user=p1FuAMkAAAAJ"
+        },
+        {
+          "name": "Bastian Leibe",
+          "affiliation": "RWTH Aachen University",
+          "image": "../../images/members/bastianleibe.webp",
+          "website": "https://www.vision.rwth-aachen.de/"
+        },
+        {
+          "name": "Axel-Cyrille Ngonga Ngomo",
+          "affiliation": "Paderborn University",
+          "image": "../../images/members/axelngonga.webp",
+          "website": "https://dice-research.org/"
+        },
+        {
+          "name": "Asja Fischer",
+          "affiliation": "Ruhr University Bochum",
+          "image": "../../images/members/asjafischer.webp",
+          "website": "https://informatik.rub.de/fischer/"
+        },
+        {
+          "name": "Milica Gašić",
+          "affiliation": "Heinrich Heine University Düsseldorf",
+          "image": "../../images/members/milicagasic.webp",
+          "website": "https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning"
+        },
+        {
+          "placeholder": true,
+          "name": "More to be announced"
+        }
+      ]
+    },
+    {
+      "type": "programme",
+      "title": "Programme",
+      "status": "Tentative",
+      "description": "The detailed programme and session times will be announced here.",
+      "items": []
+    }
+  ]
+}

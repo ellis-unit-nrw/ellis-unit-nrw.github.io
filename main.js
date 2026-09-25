@@ -91,8 +91,11 @@ async function loadAnnouncement() {
   const close = $('announce-close');
 
   let html = ann.text;
-  if (ann.link && ann.link_text)
-    html += ` <a href="${ann.link}" target="_blank" rel="noopener">${ann.link_text}</a>`;
+  if (ann.link && ann.link_text) {
+    const external = new URL(ann.link, window.location.href).origin !== window.location.origin;
+    const linkAttrs = external ? ' target="_blank" rel="noopener"' : '';
+    html += ` <a href="${ann.link}"${linkAttrs}>${ann.link_text}</a>`;
+  }
   inner.innerHTML = html;
 
   bar.style.display = 'flex';

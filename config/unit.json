@@ -11,7 +11,11 @@
     ]
   },
 
-  "announcement": null,
+  "announcement": {
+    "text": "Join the ELLIS Unit NRW Kick-Off · 16 October 2026 · Siegburg",
+    "link": "news/ellis-unit-nrw-kick-off-2026/",
+    "link_text": "Event details & registration →"
+  },
 
   "research_areas": [
     "ADD TOPICS"
