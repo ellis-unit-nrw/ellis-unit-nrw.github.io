@@ -9,13 +9,8 @@
           "name": "Samuel Kaski",
           "affiliation": "ELLIS Institute Finland · Aalto University · University of Manchester",
           "website": "https://kaski-lab.com/",
-          "image": "samuel-kaski.png"
-        },
-        {
-          "name": "Jürgen Gall",
-          "affiliation": "University of Bonn · Lamarr Institute",
-          "image": "../../images/members/juergengall.webp",
-          "website": "https://pages.iai.uni-bonn.de/gall_juergen/"
+          "image": "samuel-kaski.png",
+          "badge": "Keynote"
         },
         {
           "name": "Aleksandar Bojchevski",
@@ -28,6 +23,24 @@
           "affiliation": "TU Dortmund University · Lamarr Institute",
           "image": "../../images/members/katharinaeggensperger.webp",
           "website": "https://keggensperger.github.io/"
+        },
+        {
+          "name": "Asja Fischer",
+          "affiliation": "Ruhr University Bochum",
+          "image": "../../images/members/asjafischer.webp",
+          "website": "https://informatik.rub.de/fischer/"
+        },
+        {
+          "name": "Jürgen Gall",
+          "affiliation": "University of Bonn · Lamarr Institute",
+          "image": "../../images/members/juergengall.webp",
+          "website": "https://pages.iai.uni-bonn.de/gall_juergen/"
+        },
+        {
+          "name": "Milica Gašić",
+          "affiliation": "Heinrich Heine University Düsseldorf",
+          "image": "../../images/members/milicagasic.webp",
+          "website": "https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning"
         },
         {
           "name": "Barbara Hammer",
@@ -48,26 +61,22 @@
           "website": "https://www.vision.rwth-aachen.de/"
         },
         {
+          "name": "Michael Moeller",
+          "affiliation": "University of Siegen",
+          "image": "../../images/members/michaelmoeller.webp",
+          "website": "https://www.vsa.informatik.uni-siegen.de/en/moeller-michael"
+        },
+        {
           "name": "Axel-Cyrille Ngonga Ngomo",
           "affiliation": "Paderborn University",
           "image": "../../images/members/axelngonga.webp",
           "website": "https://dice-research.org/"
         },
         {
-          "name": "Asja Fischer",
-          "affiliation": "Ruhr University Bochum",
-          "image": "../../images/members/asjafischer.webp",
-          "website": "https://informatik.rub.de/fischer/"
-        },
-        {
-          "name": "Milica Gašić",
-          "affiliation": "Heinrich Heine University Düsseldorf",
-          "image": "../../images/members/milicagasic.webp",
-          "website": "https://www.cs.hhu.de/en/research-groups/dialog-systems-and-machine-learning"
-        },
-        {
-          "placeholder": true,
-          "name": "More to be announced"
+          "name": "Conrad H. Philipp",
+          "affiliation": "ELLIS Unit Jena",
+          "website": "https://inf-cv.uni-jena.de/home/staff/philipp/",
+          "image": "conrad-philipp.png"
         }
       ]
     },
@@ -75,8 +84,93 @@
       "type": "programme",
       "title": "Programme",
       "status": "Tentative",
-      "description": "The detailed programme and session times will be announced here.",
-      "items": []
+      "description": "All times are local (Europe/Berlin). The programme is tentative and subject to change.",
+      "items": [
+        {
+          "time": "09:00-09:30",
+          "title": "Arrival and registration"
+        },
+        {
+          "time": "09:30-10:00",
+          "title": "Welcome and opening remarks"
+        },
+        {
+          "time": "10:00-11:00",
+          "title": "Keynote: Samuel Kaski",
+          "description": "ELLIS Institute Finland"
+        },
+        {
+          "time": "11:00-11:30",
+          "title": "Coffee break"
+        },
+        {
+          "time": "11:30-11:50",
+          "title": "Barbara Hammer",
+          "description": "Bielefeld University"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Axel-Cyrille Ngonga Ngomo",
+          "description": "Paderborn University"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Aleksandar Bojchevski",
+          "description": "University of Cologne"
+        },
+        {
+          "time": "12:30-13:40",
+          "title": "Lunch"
+        },
+        {
+          "time": "13:40-14:00",
+          "title": "Juergen Gall",
+          "description": "University of Bonn & Lamarr Institute"
+        },
+        {
+          "time": "14:00-14:20",
+          "title": "Bastian Leibe",
+          "description": "RWTH Aachen University"
+        },
+        {
+          "time": "14:20-14:40",
+          "title": "Milica Gašić",
+          "description": "Heinrich Heine University Düsseldorf"
+        },
+        {
+          "time": "14:40-15:00",
+          "title": "Jenia Jitsev",
+          "description": "Forschungszentrum Jülich & LAION"
+        },
+        {
+          "time": "15:00-15:30",
+          "title": "Coffee break"
+        },
+        {
+          "time": "15:30-15:40",
+          "title": "Conrad H. Philipp",
+          "description": "ELLIS Unit Jena"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Asja Fischer",
+          "description": "Ruhr University Bochum"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Katharina Eggensperger",
+          "description": "TU Dortmund University & Lamarr Institute"
+        },
+        {
+          "time": "16:20-16:40",
+          "title": "Michael Moeller",
+          "description": "University of Siegen"
+        },
+        {
+          "time": "16:40-17:00",
+          "title": "Closing"
+        }
+      ]
     }
   ]
 }

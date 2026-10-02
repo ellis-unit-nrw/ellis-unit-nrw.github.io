@@ -34,6 +34,7 @@
       heading.textContent = person.name;
     }
     body.append(heading);
+    if (person.badge) body.append(element('span', 'event-person-badge', person.badge));
     if (person.affiliation) body.append(element('p', 'event-affiliation', person.affiliation));
     if (person.talk) body.append(element('p', 'event-talk', person.talk));
     if (person.description) body.append(element('p', 'event-person-description', person.description));

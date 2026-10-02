@@ -75,3 +75,5 @@
 @media (max-width: 600px) {
   .event-module-speakers .event-people { grid-template-columns: 1fr; }
 }
+
+.event-person-badge { display: inline-block; margin-top: 8px; padding: 2px 9px; border-radius: var(--r-full); background: var(--indigo-pale); color: var(--indigo-dark); font-size: 12px; font-weight: 700; line-height: 1.6; }
