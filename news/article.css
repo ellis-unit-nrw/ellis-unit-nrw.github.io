@@ -77,3 +77,16 @@
 }
 
 .event-person-badge { display: inline-block; margin-top: 8px; padding: 2px 9px; border-radius: var(--r-full); background: var(--indigo-pale); color: var(--indigo-dark); font-size: 12px; font-weight: 700; line-height: 1.6; }
+
+/* Highlight important event information without adding a banner. */
+.news-article .article-notice {
+  margin: 24px 0;
+  padding: 18px 22px;
+  border-left: 4px solid var(--indigo);
+  border-radius: var(--r-sm);
+  background: var(--indigo-pale);
+  color: var(--gray-900);
+  font-size: 16px;
+}
+.article-notice > strong { display: block; margin-bottom: 6px; color: var(--indigo-dark); }
+.article-notice a { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
