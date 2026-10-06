@@ -405,6 +405,13 @@
       "website":"https://www.lfb.rwth-aachen.de/de/institute/team/truhn/"
     },
     {
+      "name": "Prof. Dr. Anni-Yasmin Turhan",
+      "role": "Member",
+      "institution": ["Paderborn University"],
+      "image": "images/members/anni-turhan.webp",
+      "website": "https://www.uni-paderborn.de/person/104470"
+    },
+    {
       "name":"Prof. Dr. Wil van der Aalst",	
       "role":"Member",	
       "institution":"RWTH Aachen University",	
